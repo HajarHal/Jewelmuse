@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f1e9;
+  color: #271819;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Voile de grain subtil pour l'atmosphère */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: var(--grain);
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[0.7rem] uppercase tracking-luxe text-burgundy font-body;
+  }
+
+  /* Bouton principal — bordeaux profond, vire au champagne au survol */
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-burgundy px-8 py-3
+           font-body text-sm uppercase tracking-[0.18em] text-ivory
+           transition-all duration-300 hover:bg-burgundy-deep hover:tracking-[0.24em];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-burgundy/30 px-8 py-3
+           font-body text-sm uppercase tracking-[0.18em] text-burgundy
+           transition-all duration-300 hover:border-burgundy hover:bg-burgundy/5;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-ink/15 bg-cream/60 px-4 py-3 font-body text-ink
+           placeholder:text-stone/60 outline-none transition
+           focus:border-champagne focus:bg-cream focus:ring-2 focus:ring-champagne/25;
+  }
+
+  .field-label {
+    @apply mb-1.5 block font-body text-xs uppercase tracking-[0.14em] text-stone;
+  }
+
+  .hairline {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-champagne/50 to-transparent;
+  }
+}
+
