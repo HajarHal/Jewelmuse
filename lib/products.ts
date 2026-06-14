@@ -91,14 +91,14 @@ export const products: Product[] = [
   },
    {
     id: 4,
-    name: "Montre Serpent Gold & Bracelet tulipe",
+    name: "Montre Serpent Gold & Bracelet Tennis",
     slug: "montre-serpent-gold",
     description:
-      " montre carrée dorée avec bracelet cristal + bracelet tulipe doré avec strass",
-    descriptionAr: "ساعة مربعة ذهبية بسوار كريستال +     سوار توليب ذهبي مع ستراس",
+      " montre carrée dorée avec bracelet cristal + bracelet Tennis doré",
+    descriptionAr: "ساعة مربعة ذهبية بسوار كريستال +     سوار ذهبي ",
     price: 199,
     media: [
-      img("/products/serpant-montre.jpeg"),
+      img("/products/serpant-montre1.jpeg"),
      
     ],
     category: "Montres",
