@@ -164,6 +164,7 @@ export const products: Product[] = [
       " Collier chaîne fine dorée avec pendentif carré à pierre noire",
     descriptionAr: "قلادة سلسلة ذهبية رفيعة بقلادة مربعة وحجر أسود",
     price: 99,
+    oldPrice: 125,
     media: [
       img("/products/carre-buste.jpg"),
       img("/products/coolier_pendat.jpeg"),
@@ -181,6 +182,7 @@ export const products: Product[] = [
       "Collier chaîne dorée avec pendentif soleil et pierre noire centrale",
     descriptionAr: "قلادة سلسلة ذهبية بقلادة على شكل شمس مع حجر أسود في الوسط",
     price: 99,
+    oldPrice: 125,
     media: [
       img("/products/soleil-reel-2.jpg"),
       img("/products/soleil-reel-1.jpg"),
@@ -200,7 +202,7 @@ export const products: Product[] = [
       "Collier de perles avec pendentif fleur en or",
     descriptionAr: "عقد لؤلؤ بقلادة زهرة ذهبية",
     price: 99,
-    oldPrice: 640,
+    oldPrice: 125,
     media: [
       img("/products/fleur-buste.jpg"),
       img("/products/collierblanc.jpeg"),
@@ -222,6 +224,7 @@ export const products: Product[] = [
       "Collier chaîne dorée style maillons rectangulaires",
     descriptionAr: "قلادة سلسلة ذهبية على شكل حلقات مستطيلة",
     price: 99,
+    oldPrice: 125,
     media: [
       img("/products/maille-buste.jpg"),
    
