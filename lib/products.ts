@@ -134,7 +134,7 @@ export const products: Product[] = [
     media: [
       img("/products/gold-watch-2.jpg"),
       img("/product/goldwatch.jpg"),
-      img("/product/gold-watch-6.jpg"),
+      img("/product/goldwatch2.jpg"),
      
     ],
     category: "Montres",
