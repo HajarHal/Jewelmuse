@@ -116,7 +116,7 @@ export const products: Product[] = [
     descriptionAr: "ساعة مستطيلة ذهبية + سوار رفيع مع قلادة فراشة + سوار التوليب الذهبي",
     price: 189,
     media: [
-      img("/products/rectangle1.jpg"),
+      img("/products/rectangle2.jpg"),
     ],
     category: "Montres",
     colors: ["Gold / Pearl"],
