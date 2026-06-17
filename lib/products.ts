@@ -151,8 +151,7 @@ export const products: Product[] = [
     descriptionAr: "ساعة ذهبية على شكل قطرة مع كريستالات + سوار ماكرامي أسود",
     price: 169,
     media: [
-      img("/products/serpannt.jpeg"),
-      img("/products/duo-cordon.jpg"),
+      img("/products/serpannt1.png"),
     ],
     category: "Watches",
     colors: ["Gold / Black"],
