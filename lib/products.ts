@@ -133,7 +133,7 @@ export const products: Product[] = [
     price: 189,
     media: [
       img("/products/gold-watch-2.jpg"),
-      img("/product/gold-watch-5.jpg"),
+      img("/product/goldwatch.jpg"),
       img("/product/gold-watch-6.jpg"),
      
     ],
