@@ -131,7 +131,9 @@ export const products: Product[] = [
     descriptionAr: " ساعة بيضاوية ذهبية بكريستال + سوار زهرة التوليب ذهبي بالستراس",
     price: 199,
     media: [
-      img("/products/gold-watch-1.jpeg"),
+      img("/products/gold-watch-2.jpg"),
+      img("/product/gold-watch-3.jpg"),
+      img("/product/gold-watch-4.jpg"),
      
     ],
     category: "Montres",
