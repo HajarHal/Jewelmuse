@@ -149,7 +149,7 @@ export const products: Product[] = [
     description:
       " Montre dorée forme goutte avec cristaux + bracelet macramé noir",
     descriptionAr: "ساعة ذهبية على شكل قطرة مع كريستالات + سوار ماكرامي أسود",
-    price: 169,
+    price: 179,
     media: [
       img("/products/serpannt2.png"),
     ],
