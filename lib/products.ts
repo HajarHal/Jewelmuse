@@ -91,14 +91,15 @@ export const products: Product[] = [
   },
    {
     id: 4,
-    name: "Montre Serpent Gold & Bracelet Tennis",
+    name: "Montre Serpent Gold & Bracelet Tennis & Bracelet Tulipe",
     slug: "montre-serpent-gold",
     description:
-      " montre carrée dorée avec bracelet cristal + bracelet Tennis doré",
-    descriptionAr: "ساعة مربعة ذهبية بسوار كريستال +     سوار ذهبي ",
-    price: 199,
+      " montre carrée dorée avec bracelet cristal + bracelet Tennis doré + bracelet Tulipe",
+    descriptionAr: "ساعة مربعة ذهبية بسوار مرصع بالكريستال + سوار تينيس ذهبي + سوار التوليب الذهبي",
+    price: 189,
     media: [
-      img("/products/serpant-montre1.jpeg"),
+      img("/products/serpant-montre2.jpg"),
+      img("/products/serpant-montre3.jpg"),
      
     ],
     category: "Montres",
@@ -108,12 +109,12 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    name: " Montre Rectangle & Bracelet Papillon",
+    name: " Montre Rectangle & Bracelet Papillonv & Bracelet Tennis",
     slug: "coffret-montre-perles",
     description:
-      "Montre rectangulaire dorée + bracelet fin avec pendentif papillon",
-    descriptionAr: "ساعة مستطيلة ذهبية + سوار رفيع مع قلادة فراشة",
-    price: 199,
+      "Montre rectangulaire dorée + bracelet fin avec pendentif papillon + Bracelet Tennis ",
+    descriptionAr: "ساعة مستطيلة ذهبية + سوار رفيع مع قلادة فراشة + سوار التوليب الذهبي",
+    price: 189,
     media: [
       img("/products/rectangle1.jpg"),
     ],
@@ -124,12 +125,12 @@ export const products: Product[] = [
   },
   {
     id: 6,
-    name: "Jonc Torsadé ",
+    name: "Montre ovale & Bracelet Tennis & Bracelet Tulipe ",
     slug: "jonc-torsade",
     description:
-      "montre ovale dorée avec cristaux + bracelet floral doré avec strass",
-    descriptionAr: " ساعة بيضاوية ذهبية بكريستال + سوار زهرة التوليب ذهبي بالستراس",
-    price: 199,
+      "montre ovale dorée avec cristaux + bracelet Tennis doré + bracelet Tulipe",
+    descriptionAr: "ساعة بيضاوية ذهبية مرصعة بالكريستال + سوار زهرة التوليب + سوار تينيس ذهبي",
+    price: 189,
     media: [
       img("/products/gold-watch-2.jpg"),
       img("/product/gold-watch-3.jpg"),
