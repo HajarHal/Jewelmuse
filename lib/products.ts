@@ -115,7 +115,7 @@ export const products: Product[] = [
     descriptionAr: "ساعة مستطيلة ذهبية + سوار رفيع مع قلادة فراشة",
     price: 199,
     media: [
-      img("/products/rectangle.jpeg"),
+      img("/products/rectangle1.jpg"),
     ],
     category: "Montres",
     colors: ["Gold / Pearl"],
