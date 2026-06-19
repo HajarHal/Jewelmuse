@@ -96,7 +96,7 @@ export const products: Product[] = [
     description:
       " montre carrée dorée avec bracelet cristal + bracelet Tennis doré + bracelet Tulipe",
     descriptionAr: "ساعة مربعة ذهبية بسوار مرصع بالكريستال + سوار تينيس ذهبي + سوار التوليب الذهبي",
-    price: 189,
+    price: 199,
     media: [
       img("/products/serpant-montre2.jpg"),
       img("/products/serpant-montre3.jpg"),
@@ -114,7 +114,7 @@ export const products: Product[] = [
     description:
       "Montre rectangulaire dorée + bracelet fin avec pendentif papillon + Bracelet Tennis ",
     descriptionAr: "ساعة مستطيلة ذهبية + سوار رفيع مع قلادة فراشة + سوار التوليب الذهبي",
-    price: 189,
+    price: 199,
     media: [
       img("/products/rectangle2.jpg"),
     ],
@@ -130,7 +130,7 @@ export const products: Product[] = [
     description:
       "montre ovale dorée avec cristaux + bracelet Tennis doré + bracelet Tulipe",
     descriptionAr: "ساعة بيضاوية ذهبية مرصعة بالكريستال + سوار زهرة التوليب + سوار تينيس ذهبي",
-    price: 189,
+    price: 199,
     media: [
       img("/products/gold-watch-2.jpg"),
       img("/product/goldwatch.jpg"),
@@ -149,7 +149,7 @@ export const products: Product[] = [
     description:
       " Montre dorée forme goutte avec cristaux + bracelet macramé noir",
     descriptionAr: "ساعة ذهبية على شكل قطرة مع كريستالات + سوار ماكرامي أسود",
-    price: 179,
+    price: 189,
     media: [
       img("/products/serpannt2.png"),
     ],
