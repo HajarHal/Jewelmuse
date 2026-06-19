@@ -98,8 +98,8 @@ export const products: Product[] = [
     descriptionAr: "ساعة مربعة ذهبية بسوار مرصع بالكريستال + سوار تينيس ذهبي + سوار التوليب الذهبي",
     price: 199,
     media: [
-      img("/products/serpant-montre2.jpg"),
-      img("/products/serpant-montre3.jpg"),
+      img("/products/serpant-montre2.png"),
+      img("/products/serpant-montre3.png"),
      
     ],
     category: "Montres",
