@@ -116,7 +116,7 @@ export const products: Product[] = [
     descriptionAr: "ساعة مستطيلة ذهبية + سوار رفيع مع قلادة فراشة + سوار التوليب الذهبي",
     price: 199,
     media: [
-      img("/products/rectangle2.jpg"),
+      img("/products/rectangle2.png"),
     ],
     category: "Montres",
     colors: ["Gold / Pearl"],
@@ -132,9 +132,9 @@ export const products: Product[] = [
     descriptionAr: "ساعة بيضاوية ذهبية مرصعة بالكريستال + سوار زهرة التوليب + سوار تينيس ذهبي",
     price: 199,
     media: [
-      img("/products/gold-watch-2.jpg"),
-      img("/product/goldwatch.jpg"),
-      img("/product/goldwatch2.jpg"),
+      img("/products/gold-watch-2.png"),
+      img("/product/goldwatch.png"),
+      img("/product/goldwatch2.png"),
      
     ],
     category: "Montres",
@@ -151,7 +151,7 @@ export const products: Product[] = [
     descriptionAr: "ساعة ذهبية على شكل قطرة مع كريستالات + سوار ماكرامي أسود",
     price: 189,
     media: [
-      img("/products/serpannt2.png"),
+      img("/products/serpannt22.png"),
     ],
     category: "Watches",
     colors: ["Gold / Black"],
